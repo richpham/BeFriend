@@ -2,6 +2,8 @@ import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Font;
+import java.awt.Toolkit;
+
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -39,6 +41,10 @@ public class Edit
 		frame = new JFrame("BeFriend");
 		frame.setSize(350, 700);
 		frame.getContentPane().setBackground(Color.BLUE);
+
+		Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
+		frame.setLocation(dim.width/2-frame.getSize().width/2, dim.height/2-frame.getSize().height/2);
+
 		panel = new JPanel();	
 
 		// BeFriend Logo

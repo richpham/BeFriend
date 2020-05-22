@@ -26,6 +26,11 @@ public class View {
 		frame = new JFrame("BeFriend");
 		frame.setSize(350, 700);
 		frame.getContentPane().setBackground(Color.BLUE);
+
+		
+		Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
+		frame.setLocation(dim.width/2-frame.getSize().width/2, dim.height/2-frame.getSize().height/2);
+
 		panel = new JPanel();	
 
 		// BeFriend Logo

@@ -2,6 +2,7 @@ import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Font;
+import java.awt.Toolkit;
 import java.awt.Image;
 import java.io.File;
 import java.util.ArrayList;
@@ -57,6 +58,10 @@ public class ProfilePage extends JFrame
 		frame = new JFrame("BeFriend");
 		frame.setSize(350, 700);
 		frame.getContentPane().setBackground(Color.BLUE);
+
+		Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
+		frame.setLocation(dim.width/2-frame.getSize().width/2, dim.height/2-frame.getSize().height/2);
+
 		panel = new JPanel();	
 		currentUser = user;
 
