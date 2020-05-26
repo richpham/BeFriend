@@ -4,13 +4,13 @@
 Technologies used include Eclipse, Java, and GUI
 
 ## App Description
-BeFriend is our final project for our Data Structures and Algorithm course that presents our understanding and execution of undirected graphs and graphical user interface to successfully execute a fully functional social netwokring application.
+BeFriend is our final project for our Data Structures and Algorithm course that presents our understanding of undirected graphs and graphical user interface to successfully execute a fully functional social networking application.
 
-The overall goal of this project is to implement a social application that mimics the attributes of the well known social networking app, Facebook. Facebook was created by Mark Zuckerberg alongside his fellow classmates during his sophomore year at Harvard University. Zuckerberg and the contributing creators of Facebook are representative of how the fundamental computer science concepts taught in our Data Structures and Algorithms course are utilized in real life applications.
+The overall goal of this project is to implement an application that mimics the attributes of the well known social networking app, Facebook. Facebook was created by Mark Zuckerberg alongside his fellow classmates during his sophomore year at Harvard University. Zuckerberg and the contributing creators of Facebook are representative of how the fundamental computer science concepts taught in our Data Structures and Algorithms course are utilized in real life applications.
 Our rendition of this social application is called BeFriend. BeFriend has the main aspects that all social networking applications contain to serve as an easily accessible means of human connection for users.
 
 
-## App Walk-though
+## App Walk-through
 
 ### Login Page
 <img src="https://i.imgur.com/n0VNp33.gif" width=250><br>
@@ -35,7 +35,6 @@ Our rendition of this social application is called BeFriend. BeFriend has the ma
 - [x] Search for other users and prompts an error message if user is not found in network
 - [x] Opens the searched profile if the user is found
 - [x] Allows user to add searched user as friend and successfully updates both friends' list to show connection
-
 
 ### Logout
 <img src="https://i.imgur.com/WdsHDbR.gif" width=250><br>
